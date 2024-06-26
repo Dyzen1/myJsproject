@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .disabled {
+    pointer-events: none;
+    opacity: 0.6; 
+  }
+    </style>
+</head>
+<body>
+    <form id="styleForm">
+        <label for="styleInput">Add a class :</label>
+        <input type="text" id="styleInput" name="styleInput">
+        <button type="button" onclick="applyStyleBasedOnInput()">Apply Style</button>
+    </form>
+    <p id="styledParagraph">This paragraph changes</p>
+    <script src="jshw.js"></script>
+    <section>
+       
+        <p id="hidep1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, nobis?</p>
+        
+        <p id="hidep2">Lorem ipsum dolor sit amet.</p>
+        
+        <p id="hidep3"> Lorem, ipsum dolor.</p>
+        <button type="button" onclick="ToggleVisibility('hidep1')">Toggle 1</button>
+        <button type="button" onclick="ToggleVisibility('hidep2')">Toggle 2</button>
+        <button type="button" onclick="ToggleVisibility('hidep3')">Toggle 3</button>
+               <div class="button-container">
+            <button id="myButton" class="my-button" onclick="toggleButton()">Press</button>
+        </div>
+    </section>
+    
+</body>
+</html>
